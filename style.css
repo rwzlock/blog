@@ -183,6 +183,8 @@ a:hover, a:active {
 .site-title {
     font-size: 72px;
     font-family: 'BeyondTheMountains';
+    margin-top: 0.20em;
+    margin-bottom: 0.20em;
 }
 
 .site-title a {
@@ -337,13 +339,14 @@ a:hover, a:active {
 }
 
 .hero-slider img {
-    width: 100%;
-    height: auto;
+    align: center;
+    width: 90%;
+    height: 5%;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom, .swiper-pagination-fraction {
-    bottom: 30px;
+    bottom: 10px;
     left: 38px;
     text-align: left;
 }
@@ -463,9 +466,10 @@ a:hover, a:active {
     padding-bottom: 100px;
 }
 
-.single-page .content-wrap {
+.single-page .content-wrap .posted-date {
+    align: left;
     margin-top: 110px;
-    text-align: center;
+    text-align: left;
     color: #afafaf;
 }
 
@@ -878,7 +882,7 @@ a:hover, a:active {
 # Sidebar
 --------------------------------------------------------------*/
 .sidebar {
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 .single-page .sidebar {
